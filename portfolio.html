@@ -5,48 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    <div>
-        <h1>
-            Eduardo Fernandez
-        </h1>
-    </div>
-    <div>
-        <ul>
-            <li><a href="">About</a></li>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Portfolio</a></li>
-        </ul>
-    </div>
-    <div class="full">
-        <section>
-            <div id="portfolio">
-                <h2>Portfolio</h2>
+    <div id="main-header">
+        <div id="top">
+            <div id="header">
+                Eduardo Fernandez
             </div>
-            <div class="images">
-                <div id="image1">
-                    <img src="" alt="pic1">
-                </div>
-                <div id="image2">
-                    <img src="" alt="pic2">
-                </div>
-                <div id="image3">
-                    <img src="" alt="pic3">
-                </div>
-                <div id="image4">
-                    <img src="" alt="pic4">
-                </div>
-                <div id="image5">
-                    <img src="" alt="pic5">
-                </div>
+            <div class="nav" id="contact"><a href="./contact.html">Contact</a>            
             </div>
-        </section>
+            <div class="nav"><a href="./portfolio.html">Portfolio</a>
+            </div>
+            <div class="nav"><a href="./index.html">About</a>
+            </div>
+        </div>
+    </div>
+    <div class="wraper" id="portfolio-wraper">
+        <div id="second-header">
+            <strong>Portfolio</strong>
+        </div>
+        <div id="images">
+            <div class="pics" id="pic1">
+                <a href="./p1.html"><img src="./assets/images/Step-Dancing.jpg" alt="Dancing Machine" /></a>
+                <div class="banner">Not Software!!</div>
+            </div>
+            <div class="pics" id="pic2">
+                <a href="./p2.html"><img src="./assets/images/Rubik's.jpeg" alt="Rubik's Cube" /></a>
+                <div class="banner">Not Software!!</div>
+            </div>
+            <div class="pics" id="pic3">
+                <a href="./p3.html"><img src="./assets/images/Music.jpg" alt="Hatsune Miku" /></a>
+                <div class="banner">Not Software!!</div>
+            </div>
+            <div class="pics" id="pic4">
+                <a href="./p4.html"><img src="./assets/images/Best-Friend.jpg" alt="My Dog Thorin" /></a>
+                <div class="banner">Not Software!!</div>
+            </div>
+            <div class="pics" id="pic5">
+                <a href="./p5.html"><img src="./assets/images/School.jpg" alt="Cartoon Children" /></a>
+                <div class="banner">Not Software!!</div>
+            </div>
+        </div>
+    </div>
+    <div id="push">
     </div>
     <div id="footer">
-
+        Copyright &copy;
     </div>
 </body>
 </html>
